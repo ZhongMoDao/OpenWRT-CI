@@ -39,6 +39,7 @@ fi
 
 if [[ $WRT_URL == *"openwrt-6.x"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
+	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg" 	
 fi
 
 #更新软件包版本
